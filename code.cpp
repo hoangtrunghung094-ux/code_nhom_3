@@ -1854,7 +1854,7 @@ void loop()
             // Đã tới 30 cm: dừng hẳn và chờ K210 xác nhận vật cản.
             stopCar();
             webSpeed = 0;
-            webState = "DUNG 25CM - CHO K210";
+            webState = "DUNG - CHO K210";
             DebugSerial.println(" | DUNG 30CM - CHO K210 NHAN DIEN");
 
             // Trong lúc chờ, vẫn phục vụ web và đọc UART K210.
